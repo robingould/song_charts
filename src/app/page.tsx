@@ -3,9 +3,6 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Background from './components/Background'
 
-import Lenis from '@studio-freight/lenis'
-
-
 
 export default function Home() {
 

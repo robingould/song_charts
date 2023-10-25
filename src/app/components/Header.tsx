@@ -21,7 +21,7 @@ const genre_categories = [
   { name: 'Genre Graph', description: 'Find music by looking at genre similarities', href: '#', icon: PresentationChartLineIcon },
 ]
 
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)

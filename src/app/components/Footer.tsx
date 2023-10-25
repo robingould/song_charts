@@ -1,9 +1,5 @@
-import { Fragment, useState } from 'react'
-import { Dialog, Popover, Transition } from '@headlessui/react'
-
 export default function Footer() {
 
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return(
         <div className="relative h-full ">
             <footer className="absolute bottom-0 h-64 w-full outline bg-blue/25">
