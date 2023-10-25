@@ -2,26 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.body, html {
+   
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.e1{
+  /* Ellipse 1 */
+
+width: 300px;
+height: 300px;
+left: -76px;
+top: 283px;
+
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.e2 {
+  /* Ellipse 2 */
+
+width: 500px;
+height: 500px;
+left: 1164px;
+top: 826px;
+
+}
+
+.e3 {
+  /* Ellipse 3 */
+
+width: 500px;
+height: 500px;
+left: 146px;
+top: 1538px;
+
+
+}
+
+.e4 {
+width: 500px;
+height: 500px;
+left: 1162px;
+top: 2024px;
+
+}
+/* Ellipse 4 */
+
+
+.e5 {
+  /* Ellipse 5 */
+
+width: 300px;
+height: 300px;
+left: -23px;
+top: 2418px;
+
 }
